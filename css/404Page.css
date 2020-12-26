@@ -1,4 +1,4 @@
-body{
+kbody{
     width: 100%;
     position: relative;
 }
@@ -9,9 +9,13 @@ body{
     width: 100%;
     position: relative;
 } */
-
+#image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 img{
-    margin: 109px 44px 60px;
+    margin: 109px auto 60px;
     height: 238px;
     width: 286px;
 
@@ -97,19 +101,32 @@ footer{
 @media screen and (min-width: 1000px){
     #container{
         display: flex;
-        padding-top: 200px;
+        padding-top: 265px;
     }
 
     #image-container{
         width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     img{
-        width: 450px;
-        margin: 0;
+        width: 539px;
+        height: 447.43px;
+        margin-left: 77px;
+        margin-top: 0px;
+    }
+
+    #info-heading{
+        width: 586px;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+    }
+
+    #info-desc{
+        width: 381px;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
     }
 
     footer{

@@ -54,6 +54,7 @@ img{
 }
 
 #info-desc{
+    width: 328px;
     font-family: 'Space Mono', monospace;
     font-weight: normal;
     font-size: 18px;
@@ -101,21 +102,21 @@ footer{
 @media screen and (min-width: 1000px){
     #container{
         display: flex;
-        padding-top: 265px;
+        margin: 265px 119px 0 77px;
     }
 
     #image-container{
-        width: 50%;
+        width: 539px;
     }
 
     img{
         width: 539px;
         height: 447.43px;
-        margin-left: 77px;
-        margin-top: 0px;
+        margin: 0 103px 0 77px;
     }
 
     #info-heading{
+
         width: 586px;
         font-size: 64px;
         line-height: 95px;
@@ -133,6 +134,6 @@ footer{
         font-weight: 600;
         font-size: 14px;
         line-height: 17px;
-        margin: 96px auto 42px;
+        margin: 293px auto 42px;
     }
 }

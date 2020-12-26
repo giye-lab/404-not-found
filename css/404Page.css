@@ -1,0 +1,121 @@
+body{
+    width: 100%;
+    position: relative;
+}
+
+/* Mobile first */
+
+/* #container{
+    width: 100%;
+    position: relative;
+} */
+
+img{
+    margin: 109px 44px 60px;
+    height: 238px;
+    width: 286px;
+
+}
+
+#page-title{
+    
+    position: absolute;
+    left: 24px;
+    top: 20px;
+
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+
+    color: #333333;
+}
+
+#info{
+    margin-left: 24px;
+}
+
+#info-heading{
+    font-family: 'Space Mono', monospace;
+    width: 350px;
+    height: 142px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+#info-desc{
+    font-family: 'Space Mono', monospace;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    }
+
+a{
+    margin-top: 66px;
+    display: block;
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+}
+#link-content{
+    position: absolute;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    color: #fff;
+    top: 24px;
+    left: 43px;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin: 96px auto 42px;
+}
+
+
+@media screen and (min-width: 600px){
+    
+}
+
+@media screen and (min-width: 1000px){
+    #container{
+        display: flex;
+        padding-top: 200px;
+    }
+
+    #image-container{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        width: 450px;
+        margin: 0;
+    }
+
+    footer{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        margin: 96px auto 42px;
+    }
+}

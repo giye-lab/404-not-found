@@ -36,7 +36,9 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot]
+https://res.cloudinary.com/onengiyeamadi/image/upload/v1609018347/404%20not%20found/404-not-found_q93n4y.jpg
+https://res.cloudinary.com/onengiyeamadi/image/upload/v1609018396/404%20not%20found/404-not-found-mobile_vxz4yc.jpg
 
 
  Hello, I am trying to learn web development using the challenges from devchallenges.io  for practice. You will see so many laughable errors, please I need your feedbacks.
@@ -67,5 +69,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/giye-lab)
-- Twitter [@your-twitter](https://{twitter.com/Yo_Giye)
+- GitHub [@giye-lab](https://github.com/giye-lab)
+- Twitter [@Yo_Giye](https://{twitter.com/Yo_Giye)

@@ -1,14 +1,9 @@
-kbody{
+body{
     width: 100%;
-    position: relative;
 }
 
 /* Mobile first */
 
-/* #container{
-    width: 100%;
-    position: relative;
-} */
 #image-container{
     display: flex;
     justify-content: center;
@@ -26,7 +21,6 @@ img{
     position: absolute;
     left: 24px;
     top: 20px;
-
     text-transform: uppercase;
     font-family: 'Inconsolata', monospace;
     font-weight: 700;
@@ -39,6 +33,7 @@ img{
 
 #info{
     margin-left: 24px;
+    
 }
 
 #info-heading{
@@ -56,7 +51,7 @@ img{
 #info-desc{
     width: 328px;
     font-family: 'Space Mono', monospace;
-    font-weight: normal;
+    font-weight:400;
     font-size: 18px;
     line-height: 27px;
     letter-spacing: -0.035em;
@@ -99,25 +94,33 @@ footer{
     
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1100px){
     #container{
-        display: flex;
+        display: grid;
+        grid: 'image-container info';
+        grid-gap: 103px;
         margin: 265px 119px 0 77px;
     }
 
     #image-container{
-        width: 539px;
+        grid-area: image-container;
+        
     }
 
     img{
         width: 539px;
         height: 447.43px;
-        margin: 0 103px 0 77px;
+        margin: 0;
+    }
+    #info{
+        margin: 0;
+        grid-area: info;
     }
 
     #info-heading{
-
+        display: block;
         width: 586px;
+        height: 190px;
         font-size: 64px;
         line-height: 95px;
         letter-spacing: -0.035em;
@@ -125,9 +128,11 @@ footer{
 
     #info-desc{
         width: 381px;
+        height: 108px;
         font-size: 24px;
         line-height: 36px;
         letter-spacing: -0.035em;
+        color: #4F4F4F;
     }
 
     footer{
